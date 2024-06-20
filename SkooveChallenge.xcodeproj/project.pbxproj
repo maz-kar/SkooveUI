@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2239832E2BC4380600286E80 /* DataRequestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2239832D2BC4380600286E80 /* DataRequestService.swift */; };
+		2252F17B2BE4BF9200749FE4 /* song-detail-screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 2252F1792BE4BF9200749FE4 /* song-detail-screen.png */; };
+		2252F17E2BE4BFB400749FE4 /* song-list-screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 2252F17D2BE4BFB400749FE4 /* song-list-screen.png */; };
+		226132B72BC520D300363674 /* songs.json in Resources */ = {isa = PBXBuildFile; fileRef = 226132B62BC520D300363674 /* songs.json */; };
+		226132B92BC525C000363674 /* SongDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226132B82BC525C000363674 /* SongDetailView.swift */; };
+		226132BB2BC528BA00363674 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 226132BA2BC528BA00363674 /* README.md */; };
+		226132BD2BC53D3100363674 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226132BC2BC53D3100363674 /* Song.swift */; };
+		2278C1582BC42D4D002E5CDC /* SkooveChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2278C1572BC42D4D002E5CDC /* SkooveChallengeApp.swift */; };
+		2278C15A2BC42D4D002E5CDC /* SongListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2278C1592BC42D4D002E5CDC /* SongListView.swift */; };
+		2278C15C2BC42D4E002E5CDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2278C15B2BC42D4E002E5CDC /* Assets.xcassets */; };
+		2278C15F2BC42D4E002E5CDC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2278C15E2BC42D4E002E5CDC /* Preview Assets.xcassets */; };
+		2278C1692BC42D4E002E5CDC /* SkooveChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2278C1682BC42D4E002E5CDC /* SkooveChallengeTests.swift */; };
+		2278C1732BC42D4E002E5CDC /* SkooveChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2278C1722BC42D4E002E5CDC /* SkooveChallengeUITests.swift */; };
+		2278C1752BC42D4E002E5CDC /* SkooveChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2278C1742BC42D4E002E5CDC /* SkooveChallengeUITestsLaunchTests.swift */; };
+		228791C02BE3F12200BD0B54 /* SongListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228791BF2BE3F12200BD0B54 /* SongListViewModel.swift */; };
+		228791C22BE3F3BC00BD0B54 /* SongDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228791C12BE3F3BC00BD0B54 /* SongDetailViewModel.swift */; };
+		6B3B86D22BEFEA6500D4C8C3 /* SongRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3B86D12BEFEA6500D4C8C3 /* SongRowView.swift */; };
+		6B3B86D52BEFEAF000D4C8C3 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3B86D42BEFEAF000D4C8C3 /* PreviewProvider.swift */; };
+		6B3B86D72BEFF68E00D4C8C3 /* DataRequestServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3B86D62BEFF68E00D4C8C3 /* DataRequestServiceTests.swift */; };
+		6B96B5722BEFF9AD001B0128 /* SongDetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B96B5712BEFF9AD001B0128 /* SongDetailViewModelTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2278C1652BC42D4E002E5CDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2278C14C2BC42D4D002E5CDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2278C1532BC42D4D002E5CDC;
+			remoteInfo = SkooveChallenge;
+		};
+		2278C16F2BC42D4E002E5CDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2278C14C2BC42D4D002E5CDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2278C1532BC42D4D002E5CDC;
+			remoteInfo = SkooveChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2239832D2BC4380600286E80 /* DataRequestService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRequestService.swift; sourceTree = "<group>"; };
+		2252F1792BE4BF9200749FE4 /* song-detail-screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "song-detail-screen.png"; sourceTree = "<group>"; };
+		2252F17D2BE4BFB400749FE4 /* song-list-screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "song-list-screen.png"; sourceTree = "<group>"; };
+		226132B62BC520D300363674 /* songs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = songs.json; sourceTree = "<group>"; };
+		226132B82BC525C000363674 /* SongDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongDetailView.swift; sourceTree = "<group>"; };
+		226132BA2BC528BA00363674 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		226132BC2BC53D3100363674 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		2278C1542BC42D4D002E5CDC /* SkooveChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkooveChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2278C1572BC42D4D002E5CDC /* SkooveChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkooveChallengeApp.swift; sourceTree = "<group>"; };
+		2278C1592BC42D4D002E5CDC /* SongListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongListView.swift; sourceTree = "<group>"; };
+		2278C15B2BC42D4E002E5CDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2278C15E2BC42D4E002E5CDC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2278C1642BC42D4E002E5CDC /* SkooveChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkooveChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2278C1682BC42D4E002E5CDC /* SkooveChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkooveChallengeTests.swift; sourceTree = "<group>"; };
+		2278C16E2BC42D4E002E5CDC /* SkooveChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkooveChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2278C1722BC42D4E002E5CDC /* SkooveChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkooveChallengeUITests.swift; sourceTree = "<group>"; };
+		2278C1742BC42D4E002E5CDC /* SkooveChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkooveChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		228791BF2BE3F12200BD0B54 /* SongListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongListViewModel.swift; sourceTree = "<group>"; };
+		228791C12BE3F3BC00BD0B54 /* SongDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongDetailViewModel.swift; sourceTree = "<group>"; };
+		6B3B86D12BEFEA6500D4C8C3 /* SongRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongRowView.swift; sourceTree = "<group>"; };
+		6B3B86D42BEFEAF000D4C8C3 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
+		6B3B86D62BEFF68E00D4C8C3 /* DataRequestServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRequestServiceTests.swift; sourceTree = "<group>"; };
+		6B96B5712BEFF9AD001B0128 /* SongDetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongDetailViewModelTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2278C1512BC42D4D002E5CDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2278C1612BC42D4E002E5CDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2278C16B2BC42D4E002E5CDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2278C14B2BC42D4D002E5CDC = {
+			isa = PBXGroup;
+			children = (
+				2252F1792BE4BF9200749FE4 /* song-detail-screen.png */,
+				2252F17D2BE4BFB400749FE4 /* song-list-screen.png */,
+				226132BA2BC528BA00363674 /* README.md */,
+				2278C1562BC42D4D002E5CDC /* SkooveChallenge */,
+				2278C1672BC42D4E002E5CDC /* SkooveChallengeTests */,
+				2278C1712BC42D4E002E5CDC /* SkooveChallengeUITests */,
+				2278C1552BC42D4D002E5CDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2278C1552BC42D4D002E5CDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2278C1542BC42D4D002E5CDC /* SkooveChallenge.app */,
+				2278C1642BC42D4E002E5CDC /* SkooveChallengeTests.xctest */,
+				2278C16E2BC42D4E002E5CDC /* SkooveChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2278C1562BC42D4D002E5CDC /* SkooveChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				6B3B86D32BEFEAA300D4C8C3 /* Extensions */,
+				6B3B86D02BEFEA4700D4C8C3 /* Components */,
+				6B3B86CF2BEFE88B00D4C8C3 /* Services */,
+				6B3B86CB2BEFE82700D4C8C3 /* Core */,
+				226132B62BC520D300363674 /* songs.json */,
+				2278C1572BC42D4D002E5CDC /* SkooveChallengeApp.swift */,
+				2278C15B2BC42D4E002E5CDC /* Assets.xcassets */,
+				2278C15D2BC42D4E002E5CDC /* Preview Content */,
+			);
+			path = SkooveChallenge;
+			sourceTree = "<group>";
+		};
+		2278C15D2BC42D4E002E5CDC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2278C15E2BC42D4E002E5CDC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2278C1672BC42D4E002E5CDC /* SkooveChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				2278C1682BC42D4E002E5CDC /* SkooveChallengeTests.swift */,
+				6B3B86D62BEFF68E00D4C8C3 /* DataRequestServiceTests.swift */,
+				6B96B5712BEFF9AD001B0128 /* SongDetailViewModelTests.swift */,
+			);
+			path = SkooveChallengeTests;
+			sourceTree = "<group>";
+		};
+		2278C1712BC42D4E002E5CDC /* SkooveChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2278C1722BC42D4E002E5CDC /* SkooveChallengeUITests.swift */,
+				2278C1742BC42D4E002E5CDC /* SkooveChallengeUITestsLaunchTests.swift */,
+			);
+			path = SkooveChallengeUITests;
+			sourceTree = "<group>";
+		};
+		6B3B86CB2BEFE82700D4C8C3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6B3B86CC2BEFE82E00D4C8C3 /* Model */,
+				6B3B86CD2BEFE83B00D4C8C3 /* Views */,
+				6B3B86CE2BEFE84600D4C8C3 /* ViewModels */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		6B3B86CC2BEFE82E00D4C8C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				226132BC2BC53D3100363674 /* Song.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6B3B86CD2BEFE83B00D4C8C3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2278C1592BC42D4D002E5CDC /* SongListView.swift */,
+				226132B82BC525C000363674 /* SongDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6B3B86CE2BEFE84600D4C8C3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				228791BF2BE3F12200BD0B54 /* SongListViewModel.swift */,
+				228791C12BE3F3BC00BD0B54 /* SongDetailViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6B3B86CF2BEFE88B00D4C8C3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2239832D2BC4380600286E80 /* DataRequestService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6B3B86D02BEFEA4700D4C8C3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				6B3B86D12BEFEA6500D4C8C3 /* SongRowView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		6B3B86D32BEFEAA300D4C8C3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6B3B86D42BEFEAF000D4C8C3 /* PreviewProvider.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2278C1532BC42D4D002E5CDC /* SkooveChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2278C1782BC42D4E002E5CDC /* Build configuration list for PBXNativeTarget "SkooveChallenge" */;
+			buildPhases = (
+				2278C1502BC42D4D002E5CDC /* Sources */,
+				2278C1512BC42D4D002E5CDC /* Frameworks */,
+				2278C1522BC42D4D002E5CDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkooveChallenge;
+			productName = SkooveChallenge;
+			productReference = 2278C1542BC42D4D002E5CDC /* SkooveChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2278C1632BC42D4E002E5CDC /* SkooveChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2278C17B2BC42D4E002E5CDC /* Build configuration list for PBXNativeTarget "SkooveChallengeTests" */;
+			buildPhases = (
+				2278C1602BC42D4E002E5CDC /* Sources */,
+				2278C1612BC42D4E002E5CDC /* Frameworks */,
+				2278C1622BC42D4E002E5CDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2278C1662BC42D4E002E5CDC /* PBXTargetDependency */,
+			);
+			name = SkooveChallengeTests;
+			productName = SkooveChallengeTests;
+			productReference = 2278C1642BC42D4E002E5CDC /* SkooveChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2278C16D2BC42D4E002E5CDC /* SkooveChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2278C17E2BC42D4E002E5CDC /* Build configuration list for PBXNativeTarget "SkooveChallengeUITests" */;
+			buildPhases = (
+				2278C16A2BC42D4E002E5CDC /* Sources */,
+				2278C16B2BC42D4E002E5CDC /* Frameworks */,
+				2278C16C2BC42D4E002E5CDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2278C1702BC42D4E002E5CDC /* PBXTargetDependency */,
+			);
+			name = SkooveChallengeUITests;
+			productName = SkooveChallengeUITests;
+			productReference = 2278C16E2BC42D4E002E5CDC /* SkooveChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2278C14C2BC42D4D002E5CDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					2278C1532BC42D4D002E5CDC = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					2278C1632BC42D4E002E5CDC = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 2278C1532BC42D4D002E5CDC;
+					};
+					2278C16D2BC42D4E002E5CDC = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 2278C1532BC42D4D002E5CDC;
+					};
+				};
+			};
+			buildConfigurationList = 2278C14F2BC42D4D002E5CDC /* Build configuration list for PBXProject "SkooveChallenge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2278C14B2BC42D4D002E5CDC;
+			productRefGroup = 2278C1552BC42D4D002E5CDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2278C1532BC42D4D002E5CDC /* SkooveChallenge */,
+				2278C1632BC42D4E002E5CDC /* SkooveChallengeTests */,
+				2278C16D2BC42D4E002E5CDC /* SkooveChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2278C1522BC42D4D002E5CDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				226132B72BC520D300363674 /* songs.json in Resources */,
+				2278C15F2BC42D4E002E5CDC /* Preview Assets.xcassets in Resources */,
+				2252F17E2BE4BFB400749FE4 /* song-list-screen.png in Resources */,
+				226132BB2BC528BA00363674 /* README.md in Resources */,
+				2252F17B2BE4BF9200749FE4 /* song-detail-screen.png in Resources */,
+				2278C15C2BC42D4E002E5CDC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2278C1622BC42D4E002E5CDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2278C16C2BC42D4E002E5CDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2278C1502BC42D4D002E5CDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				226132B92BC525C000363674 /* SongDetailView.swift in Sources */,
+				2278C15A2BC42D4D002E5CDC /* SongListView.swift in Sources */,
+				2278C1582BC42D4D002E5CDC /* SkooveChallengeApp.swift in Sources */,
+				228791C02BE3F12200BD0B54 /* SongListViewModel.swift in Sources */,
+				2239832E2BC4380600286E80 /* DataRequestService.swift in Sources */,
+				228791C22BE3F3BC00BD0B54 /* SongDetailViewModel.swift in Sources */,
+				6B3B86D22BEFEA6500D4C8C3 /* SongRowView.swift in Sources */,
+				6B3B86D52BEFEAF000D4C8C3 /* PreviewProvider.swift in Sources */,
+				226132BD2BC53D3100363674 /* Song.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2278C1602BC42D4E002E5CDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2278C1692BC42D4E002E5CDC /* SkooveChallengeTests.swift in Sources */,
+				6B96B5722BEFF9AD001B0128 /* SongDetailViewModelTests.swift in Sources */,
+				6B3B86D72BEFF68E00D4C8C3 /* DataRequestServiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2278C16A2BC42D4E002E5CDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2278C1732BC42D4E002E5CDC /* SkooveChallengeUITests.swift in Sources */,
+				2278C1752BC42D4E002E5CDC /* SkooveChallengeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2278C1662BC42D4E002E5CDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2278C1532BC42D4D002E5CDC /* SkooveChallenge */;
+			targetProxy = 2278C1652BC42D4E002E5CDC /* PBXContainerItemProxy */;
+		};
+		2278C1702BC42D4E002E5CDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2278C1532BC42D4D002E5CDC /* SkooveChallenge */;
+			targetProxy = 2278C16F2BC42D4E002E5CDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2278C1762BC42D4E002E5CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2278C1772BC42D4E002E5CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2278C1792BC42D4E002E5CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SkooveChallenge/Preview Content\"";
+				DEVELOPMENT_TEAM = 3LU756Z7J5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skoove.SkooveChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2278C17A2BC42D4E002E5CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SkooveChallenge/Preview Content\"";
+				DEVELOPMENT_TEAM = 3LU756Z7J5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skoove.SkooveChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2278C17C2BC42D4E002E5CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3LU756Z7J5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skoove.SkooveChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkooveChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SkooveChallenge";
+			};
+			name = Debug;
+		};
+		2278C17D2BC42D4E002E5CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3LU756Z7J5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skoove.SkooveChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkooveChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SkooveChallenge";
+			};
+			name = Release;
+		};
+		2278C17F2BC42D4E002E5CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3LU756Z7J5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skoove.SkooveChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkooveChallenge;
+			};
+			name = Debug;
+		};
+		2278C1802BC42D4E002E5CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3LU756Z7J5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skoove.SkooveChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkooveChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2278C14F2BC42D4D002E5CDC /* Build configuration list for PBXProject "SkooveChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2278C1762BC42D4E002E5CDC /* Debug */,
+				2278C1772BC42D4E002E5CDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2278C1782BC42D4E002E5CDC /* Build configuration list for PBXNativeTarget "SkooveChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2278C1792BC42D4E002E5CDC /* Debug */,
+				2278C17A2BC42D4E002E5CDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2278C17B2BC42D4E002E5CDC /* Build configuration list for PBXNativeTarget "SkooveChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2278C17C2BC42D4E002E5CDC /* Debug */,
+				2278C17D2BC42D4E002E5CDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2278C17E2BC42D4E002E5CDC /* Build configuration list for PBXNativeTarget "SkooveChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2278C17F2BC42D4E002E5CDC /* Debug */,
+				2278C1802BC42D4E002E5CDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2278C14C2BC42D4D002E5CDC /* Project object */;
+}
